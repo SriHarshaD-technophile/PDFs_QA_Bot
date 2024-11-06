@@ -47,7 +47,7 @@ class AskQuestionRequest(BaseModel):
 session_contexts = {}
 
 # AWS S3 configurations (example)
-S3_BUCKET_NAME = "aip01"
+S3_BUCKET_NAME = "api01"
 AWS_ACCESS_KEY_ID = "AKATAHQD6FD2FQWQD5W"
 AWS_SECRET_ACCESS_KEY = "I+l6B6YpdoMykZDFfWDEWJNEWK3E41"
 AWS_REGION = "eu-north-1"
