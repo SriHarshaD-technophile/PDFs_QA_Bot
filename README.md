@@ -1,5 +1,5 @@
 
-# PDFs_QA_Bot - Full-Stack PDFs QA Application
+# PDFs_QA_Bot - Full Stack PDFs QA Application
 
 ## Overview
 PDFs_QA_Bot is a full-stack application enabling users to upload PDF documents, ask questions about their content, and receive AI-powered responses. Designed to provide a seamless experience, this app integrates a **FastAPI backend** with **React.js** for the frontend. The application processes PDF files, extracts text, and answers user questions with natural language processing (NLP) capabilities, utilizing both **LangChain** and the **OpenAI API** for advanced question answering.
