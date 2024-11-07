@@ -15,7 +15,7 @@ PDFs_QA_Bot is a full-stack application enabling users to upload PDF documents, 
 ### Additional Features
 - **Smooth Interactions**: The chat interface allows users to send messages with the “Enter” key, providing a natural chat experience similar to popular messaging apps.
 - **Responsive Design**: The layout adjusts across mobile and desktop devices for enhanced accessibility and usability.
-- **Error Handling and Feedback**: Real-time error messages guide users if they attempt actions like asking questions without selecting PDFs or starting a session.
+- **Error Handling and Feedback**: Real-time error messages guide users if they attempt actions like asking questions without selecting PDFs or starting a session and even attempting to upload a pdf which already exists.
 - **Modern Visuals**: Styled with clean, modern elements using **Material-UI** and **Styled Components** to ensure a visually appealing design.
 - **Background Customization**: Users can personalize their chat background, creating a more engaging environment.
 
@@ -103,7 +103,7 @@ After starting a session, choose specific PDFs for querying. This is essential a
 Type questions in the chat interface, and receive AI-generated responses based on the selected PDF content. Quickly submit messages by pressing enter on keyboard or by pressing send button on the interface, similar to a typical chat application.
 
 ### Error Handling
-If you attempt to ask a question without starting a session or selecting PDF files, the application will display an error message guiding you to complete the necessary steps.
+If you attempt to ask a question without starting a session or selecting PDF files, the application will display an error message guiding you to complete the necessary steps. Also, if the pdf file is already present in the database (with exactly same content and filename), the application displays a duplicate PDF error message.
 
 ## Session Management and Continuity
 PDFs_QA_Bot includes robust session management to ensure smooth and consistent user interactions:
